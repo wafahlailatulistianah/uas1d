@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aacd716-e3a5-43eb-9dab-dde26533a76d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uas1d.iml" afterDir="false" />
+    <list default="true" id="2aacd716-e3a5-43eb-9dab-dde26533a76d" name="Changes" comment="public class jawabannomer3UAS {&#10;    public static void main(String[] args){&#10;        int jum=4;&#10;       private String MessageID;&#10;       private String MessageName;&#10;       ArrayList&lt;String&gt; context&#10;        UAS1D myMessage = new UAS1D();&#10;        Scaneer sc = new Scanner(System.in);&#10;        myMessage.setMessageID(sc.nextLine());&#10;        myMessage.setMessageName(sc.nextline());&#10;        ArrayLis&lt;String&gt; context = new ArrayList&lt;&gt;();&#10;        for(int index=0; index&lt;jum;index++){&#10;            context.add(sc.nextline());&#10;        }&#10;        myMessage.setContext(context);&#10;        //buatlah method Finword dalam ClassObject&#10;        //untuk mencari kata dalam Arrarlist Context&#10;        //dan menampilkan posisi indexnya dalam Arraylist context&#10;        System.out.println(&quot;kata yang dicari : &quot;);&#10;        String cari = sc.nextline();&#10;        System.out.println(myMessage.Finword(context,cari));//output&quot;index ke 0 1&#10;    }&#10;}">
+      <change afterPath="$PROJECT_DIR$/src/BARANG.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BARANG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KRNSYzzbHTXD4HPU4cgv33uxGH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,12 +30,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +48,25 @@
       <option name="presentableId" value="Default" />
       <updated>1673933443188</updated>
     </task>
+    <task id="LOCAL-00001" summary="public class jawabannomer3UAS {&#10;    public static void main(String[] args){&#10;        int jum=4;&#10;       private String MessageID;&#10;       private String MessageName;&#10;       ArrayList&lt;String&gt; context&#10;        UAS1D myMessage = new UAS1D();&#10;        Scaneer sc = new Scanner(System.in);&#10;        myMessage.setMessageID(sc.nextLine());&#10;        myMessage.setMessageName(sc.nextline());&#10;        ArrayLis&lt;String&gt; context = new ArrayList&lt;&gt;();&#10;        for(int index=0; index&lt;jum;index++){&#10;            context.add(sc.nextline());&#10;        }&#10;        myMessage.setContext(context);&#10;        //buatlah method Finword dalam ClassObject&#10;        //untuk mencari kata dalam Arrarlist Context&#10;        //dan menampilkan posisi indexnya dalam Arraylist context&#10;        System.out.println(&quot;kata yang dicari : &quot;);&#10;        String cari = sc.nextline();&#10;        System.out.println(myMessage.Finword(context,cari));//output&quot;index ke 0 1&#10;    }&#10;}">
+      <created>1673934198522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673934198522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="public class jawabannomer3UAS {&#10;    public static void main(String[] args){&#10;        int jum=4;&#10;       private String MessageID;&#10;       private String MessageName;&#10;       ArrayList&lt;String&gt; context&#10;        UAS1D myMessage = new UAS1D();&#10;        Scaneer sc = new Scanner(System.in);&#10;        myMessage.setMessageID(sc.nextLine());&#10;        myMessage.setMessageName(sc.nextline());&#10;        ArrayLis&lt;String&gt; context = new ArrayList&lt;&gt;();&#10;        for(int index=0; index&lt;jum;index++){&#10;            context.add(sc.nextline());&#10;        }&#10;        myMessage.setContext(context);&#10;        //buatlah method Finword dalam ClassObject&#10;        //untuk mencari kata dalam Arrarlist Context&#10;        //dan menampilkan posisi indexnya dalam Arraylist context&#10;        System.out.println(&quot;kata yang dicari : &quot;);&#10;        String cari = sc.nextline();&#10;        System.out.println(myMessage.Finword(context,cari));//output&quot;index ke 0 1&#10;    }&#10;}">
+      <created>1683794647976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683794647978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="public class jawabannomer3UAS {&#10;    public static void main(String[] args){&#10;        int jum=4;&#10;       private String MessageID;&#10;       private String MessageName;&#10;       ArrayList&lt;String&gt; context&#10;        UAS1D myMessage = new UAS1D();&#10;        Scaneer sc = new Scanner(System.in);&#10;        myMessage.setMessageID(sc.nextLine());&#10;        myMessage.setMessageName(sc.nextline());&#10;        ArrayLis&lt;String&gt; context = new ArrayList&lt;&gt;();&#10;        for(int index=0; index&lt;jum;index++){&#10;            context.add(sc.nextline());&#10;        }&#10;        myMessage.setContext(context);&#10;        //buatlah method Finword dalam ClassObject&#10;        //untuk mencari kata dalam Arrarlist Context&#10;        //dan menampilkan posisi indexnya dalam Arraylist context&#10;        System.out.println(&quot;kata yang dicari : &quot;);&#10;        String cari = sc.nextline();&#10;        System.out.println(myMessage.Finword(context,cari));//output&quot;index ke 0 1&#10;    }&#10;}" />
+    <option name="LAST_COMMIT_MESSAGE" value="public class jawabannomer3UAS {&#10;    public static void main(String[] args){&#10;        int jum=4;&#10;       private String MessageID;&#10;       private String MessageName;&#10;       ArrayList&lt;String&gt; context&#10;        UAS1D myMessage = new UAS1D();&#10;        Scaneer sc = new Scanner(System.in);&#10;        myMessage.setMessageID(sc.nextLine());&#10;        myMessage.setMessageName(sc.nextline());&#10;        ArrayLis&lt;String&gt; context = new ArrayList&lt;&gt;();&#10;        for(int index=0; index&lt;jum;index++){&#10;            context.add(sc.nextline());&#10;        }&#10;        myMessage.setContext(context);&#10;        //buatlah method Finword dalam ClassObject&#10;        //untuk mencari kata dalam Arrarlist Context&#10;        //dan menampilkan posisi indexnya dalam Arraylist context&#10;        System.out.println(&quot;kata yang dicari : &quot;);&#10;        String cari = sc.nextline();&#10;        System.out.println(myMessage.Finword(context,cari));//output&quot;index ke 0 1&#10;    }&#10;}" />
   </component>
 </project>
